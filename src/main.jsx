@@ -96,13 +96,13 @@ function App() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="齿镜云首页">
+        <a className="brand" href="#top" aria-label="齿镜首页">
           <span className="brand-mark">
             <Stethoscope size={19} />
           </span>
           <span>
-            <strong>齿镜云</strong>
-            <small>ChiJing Cloud</small>
+            <strong>齿镜</strong>
+            <small>ChiJing</small>
           </span>
         </a>
         <nav className="nav-links" aria-label="官网导航">
@@ -125,7 +125,7 @@ function App() {
           </div>
           <h1>把口腔观察前移到日常，把筛查报告交给端云协同完成。</h1>
           <p>
-            齿镜云面向家庭、校园与社区场景，结合手持口腔探头、端侧轻量模型和云端视觉复核，
+            齿镜面向家庭、校园与社区场景，结合手持口腔探头、端侧轻量模型和云端视觉复核，
             帮助非专业用户完成标准化采集、风险提示和护理建议查看。
           </p>
           <div className="hero-actions">
@@ -153,8 +153,8 @@ function App() {
           </div>
         </div>
 
-        <div className="hero-visual" aria-label="齿镜云设备与云端分析主视觉">
-          <img src="/assets/chijing-hero.png" alt="齿镜云口腔筛查设备与云端分析界面" />
+        <div className="hero-visual" aria-label="齿镜设备与云端分析主视觉">
+          <img src="/assets/chijing-hero.png" alt="齿镜口腔筛查设备与云端分析界面" />
           <div className="status-panel top">
             <span className="pulse" />
             距离合适 · 姿态稳定
@@ -304,7 +304,7 @@ function App() {
             <Stethoscope size={19} />
           </span>
           <span>
-            <strong>齿镜云</strong>
+            <strong>齿镜</strong>
             <small>端云协同口腔健康筛查系统</small>
           </span>
         </div>
