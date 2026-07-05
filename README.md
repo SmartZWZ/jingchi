@@ -15,8 +15,14 @@ npm run dev
 npm run build
 ```
 
-## 部署到 Cloudflare Pages
+## 本地 Worker 预览
 
 ```bash
-npm run deploy:pages
+npm run dev:worker
+```
+
+## 部署到 Cloudflare Workers
+
+```bash
+npm run deploy
 ```

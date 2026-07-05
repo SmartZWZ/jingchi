@@ -1,0 +1,11 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+
+name = "jingchi"
+main = "work.js"
+compatibility_date = "2026-07-05"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]

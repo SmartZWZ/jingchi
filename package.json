@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
+    "dev:worker": "npm run build && wrangler dev",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "deploy:pages": "npm run build && wrangler pages deploy dist --project-name chijing-oral-aiot"
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:dry-run": "npm run build && wrangler deploy --dry-run"
   },
   "dependencies": {
     "vite": "^7.3.0",
@@ -15,5 +17,7 @@
     "react-dom": "^19.2.3",
     "lucide-react": "^0.562.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "wrangler": "^4.107.0"
+  }
 }
